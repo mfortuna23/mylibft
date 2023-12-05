@@ -5,31 +5,23 @@
 #                                                     +:+ +:+         +:+      #
 #    By: mfortuna <mfortuna@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/10/04 11:07:15 by mfortuna          #+#    #+#              #
-#    Updated: 2023/12/05 12:09:29 by mfortuna         ###   ########.fr        #
+#    Created: 2023/11/08 12:23:34 by mfortuna          #+#    #+#              #
+#    Updated: 2023/11/14 12:32:09 by mfortuna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CC		= cc
-CFLAGS		= -Wall -Werror -Wextra 
-RM		= rm -rf
-NAME		= mylibft.a
-LIBFT_PATH	= ./libft
-PRINTF_PATH	= ./printf
-GNL_PATH	= ./gnl
-LIBFT		= $(LIBFT_PATH)/libft.a
-PRINTF		= $(PRINTF_PATH)/ft_printf.a
-GNL		= $(GNL_PATH)/gnl.a
-LIBFTOBJS	=$(LIBFT_PATH)/*.o
-PRINTFOBJS	=$(PRINTF_PATH)/*.o
-GNLOBJS	=$(GNL_PATH)/*.o
-AR		= ar rc
+CC	= cc
+CFLAGS	= -Wall -Werror -Wextra 
+RM	= rm -rf
+NAME	= libftprintf.a
+OBJS	= ft_printf.o ft_nbr.o ft_printchar.o ft_printstr.o
+AR	= ar rc
+SRC = .	/files
 
 all: $(NAME)
 
-$(NAME) : $(LIBFTOBJS) 
-	$(LIBFT_PATH) $(MAKE)
-	cp $(LIBFT) $(NAME)
+$(NAME) :$(OBJS)
+	$(AR) $(NAME) $(OBJS)
 
 
 %.o: %.c
