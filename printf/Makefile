@@ -6,7 +6,7 @@
 #    By: mfortuna <mfortuna@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/08 12:23:34 by mfortuna          #+#    #+#              #
-#    Updated: 2023/11/14 12:32:09 by mfortuna         ###   ########.fr        #
+#    Updated: 2023/12/06 15:23:36 by mfortuna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,6 @@ all: $(NAME)
 
 $(NAME) :$(OBJS)
 	$(AR) $(NAME) $(OBJS)
-
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $<
