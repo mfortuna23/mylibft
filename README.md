@@ -51,4 +51,4 @@ After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
     
 ### - **MAKEFILE**
 
-    Creates mylibft.a by entering the other folders, using each make file and get the files *.o
+    Creates mylibft.a by entering the other folders and using each Makefile to get the files "*.o"
