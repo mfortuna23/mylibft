@@ -6,7 +6,7 @@ After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
 
 ### - **RANK0-LIBFT**
 
-    FOLDERNAME: `libft`
+    FOLDERNAME: libft
     
     FUNCTIONS:
             -ft_isalpha.c / ft_isdigit.c / ft_isalnum.c / ft_isascii.c / ft_isprint.c
@@ -18,15 +18,15 @@ After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
             -ft_atoi.o / ft_itoa.c
             -ft_lstnew.c / ft_lstadd_front.c / ft_lstsize.c / ft_lstlast.c / ft_lstadd_back.c / ft_lstdelone.c 
             / ft_lstclear.c / ft_lstiter.c / ft_lstmap.c
-            
-  OTHERFILES:
+    
+    OTHERFILES:
             -libft.h
             
             -Makefile
             
 ### - **RANK1-FT_PRINTF**
 
-    FOLDERNAME: `printf`
+    FOLDERNAME: printf
     
     FILES:
           -ft_printf.c /*prints the 1st argument without the flags, sorts where the flags should be managed*/
@@ -38,7 +38,7 @@ After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
           
 ### - **RANK1-GET_NEXT_LINE**
 
-    FOLDERNAME: `gnl`
+    FOLDERNAME: gnl
     
     FILES:
         -get_next_line_bonus.c /*read the file given until encounters '\n', saves the remaining of the file that was read, returns a complete line*/
