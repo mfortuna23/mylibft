@@ -21,7 +21,6 @@ After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
     
     OTHERFILES:
             -libft.h
-            
             -Makefile
             
 ### - **RANK1-FT_PRINTF**
