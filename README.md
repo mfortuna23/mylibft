@@ -1,10 +1,10 @@
-#**MYLIBFT**
+# **MYLIBFT**
 
 After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able to combine this 3 projects in to my own library. 
 
-##**_CONTENT_**
+## **_CONTENT_**
 
-###- **RANK0-LIBFT**
+### - **RANK0-LIBFT**
 
     FOLDERNAME: `libft`
     
@@ -24,7 +24,7 @@ After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
             
             -Makefile
             
-###- **RANK1-FT_PRINTF**
+### - **RANK1-FT_PRINTF**
 
     FOLDERNAME: `printf`
     
@@ -36,7 +36,7 @@ After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
           -ft_printf.h
           -Makefile
           
-###- **RANK1-GET_NEXT_LINE**
+### - **RANK1-GET_NEXT_LINE**
 
     FOLDERNAME: `gnl`
     
@@ -46,10 +46,10 @@ After compliting rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
         -get_next_line_bonus.h
         -Makefile /*this was added to make the combine library, not part of 42 project*/
         
-###- **MYLIBFT.H**
+### - **MYLIBFT.H**
 
     Only includes the header files from the other projects.
     
-###- **MAKEFILE**
+### - **MAKEFILE**
 
     Creates mylibft.a by entering the other folders, using each make file and get the files *.o
