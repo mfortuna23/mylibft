@@ -5,7 +5,6 @@ After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
 ## **_CONTENT_**
 
 ### - **RANK0-LIBFT**
-
 </br>
     FOLDERNAME: libft
 
@@ -27,9 +26,9 @@ After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
             -Makefile
             
 ### - **RANK1-FT_PRINTF**
-
 </br>
     FOLDERNAME: printf
+    
 </br>    
     FILES:
           -ft_printf.c /*prints the 1st argument without the flags, sorts where the flags should be managed*/
@@ -39,9 +38,8 @@ After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
           -ft_printf.h
           -Makefile
 </br>
-          
-### - **RANK1-GET_NEXT_LINE**
 
+### - **RANK1-GET_NEXT_LINE**
 </br>
     FOLDERNAME: gnl
 
@@ -53,41 +51,39 @@ After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
         -Makefile /*This was added to the combine library, not as part of the 42 project.*/
         
 ### - **MYLIBFT.H**
-
 </br>
     Only includes the header files from the other projects.
     
 ### - **MAKEFILE**
-
 </br>
     Generates 'mylibft.a' by navigating into other folders and utilizing each Makefile to compile the corresponding '*.o' files.
 
 ## **_USAGE_**
-
 </br>
 1. Clone repository
-    ```bash
+
+ ```bash
     git clone git@github.com:mfortuna23/mylibft.git 
-    ```
+  ```
 
 2. Go inside project directory and run `make`
-    ```bash
+ ```bash
     cd mylibft
     make
-    ```
+ ```
     
 3. To use the library in your code, `#include` the following header
-    ```c
+```c
     #include "mylibft.h" /*only if your file is in the same folder, otherwise add the directions to the folder ex:. #include "mylibft/mylibft.h"*/
-    ```
+ ```
     
 4.if you would like to use just one of the librarys, you can.
-    After cloning the repository go to the desired folder
+    -After cloning the repository go to the desired folder
 ```bash
     cd mylibft/<foldername>
     make
 ```
 
 </br>
-   To use the library in your code, `#include` the proper header file 
+   -To use the library in your code, `#include` the proper header file 
 
