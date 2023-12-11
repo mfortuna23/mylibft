@@ -37,21 +37,16 @@ OTHERFILES:
             
 ### - **RANK1-FT_PRINTF**
 FOLDERNAME: printf
-    
-</br>    
+
 FILES:
-   - ft_printf.c /*prints the 1st argument without the flags, sorts where the flags should be managed*/
-</br>
-   - ft_nbr.c /*"d, i, u, x, X, p" flags are managed here*/
-</br>
-    -ft_printchar.c
-</br>
-    -ft_printstr.c
-</br>
-    -ft_printf.h
-</br>
-    -Makefile
-</br>
+   - ft_printf.c [^1] 
+   - ft_nbr.c [^2]
+   - ft_printchar.c
+   - ft_printstr.c
+   - ft_printf.h
+   - Makefile
+[^1]: prints the 1st argument without the flags, sorts where the flags should be managed
+[^2]: "d, i, u, x, X, p" flags are managed here
 
 ### - **RANK1-GET_NEXT_LINE**
 FOLDERNAME: gnl
