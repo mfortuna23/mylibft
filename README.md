@@ -27,11 +27,11 @@ FOLDERNAME: printf
 
 FILES:
    - ft_printf.c
-</br>
- _(prints the 1st argument without the flags, sorts where the flags should be managed)_
+
+   _(prints the 1st argument without the flags, sorts where the flags should be managed)_
    - ft_nbr.c
-</br>
- _("d, i, u, x, X, p" flags are managed here)_
+
+   _("d, i, u, x, X, p" flags are managed here)_
    - ft_printchar.c
    - ft_printstr.c
    - ft_printf.h
@@ -42,15 +42,15 @@ FOLDERNAME: gnl
 
 FILES:
    - get_next_line_bonus.c
-</br>
- _(read the file given until encounters '\n', saves the remaining of the file that was read, returns a complete line)_
+
+   _(read the file given until encounters '\n', saves the remaining of the file that was read, returns a complete line)_
    - get_next_line_bonus_utils.c
-</br>
- _(2 funtcions from libft with diferet name len_str = ft_strlen, check_char = ft_strchar (almost the same, returns the position of the char given, if there is non it returns '-1') and error management)_
+
+   _(2 funtcions from libft with diferet name len_str = ft_strlen, check_char = ft_strchar (almost the same, returns the position of the char given, if there is non it returns '-1') and error management)_
    - get_next_line_bonus.h
    - Makefile
-</br>
- _(This was added to the combine library, not as part of the 42 project)_
+
+   _(This was added to the combine library, not as part of the 42 project)_
         
 ### - **MYLIBFT.H**
 Only includes the header files from the other projects.
