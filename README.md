@@ -103,13 +103,13 @@ Generates 'mylibft.a' by navigating into other folders and utilizing each Makefi
     #include "mylibft.h" /*only if your file is in the same folder, otherwise add the directions to the folder ex:. #include "mylibft/mylibft.h"*/
  ```
     
-- If you would like to use just one of the librarys, you can.
-    - After cloning the repository go to the desired folder
+- If you would like to use just one of the librarys, you can:
+    1. After cloning the repository go to the desired folder
 ```bash
     cd mylibft/<foldername>
     make
 ```
-   - To use the library in your code, `#include` the proper header file
+   2. To use the library in your code, `#include` the proper header file
 4. Compile
  ```bash
     cc <yourfilename>.c mylibft.a
