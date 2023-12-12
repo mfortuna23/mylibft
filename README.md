@@ -11,7 +11,8 @@ After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
 - [MAKEFILE](#MAKEFILE)
 - [USAGE](#USAGE)
 
-### **RANK0-LIBFT**
+<details open>
+  <summary><h3>**RANK0-LIBFT**</h3></summary>
 FOLDERNAME: libft
 
 FUNCTIONS:
@@ -28,7 +29,7 @@ FUNCTIONS:
 OTHERFILES:
     - libft.h     
     - Makefile
-            
+</details>
 ### - **RANK1-FT_PRINTF**
 FOLDERNAME: printf
 
