@@ -109,7 +109,7 @@ Generates 'mylibft.a' by navigating into other folders and utilizing each Makefi
     cd mylibft/<foldername>
     make
 ```
-   ii. To use the library in your code, `#include` the proper header file
+   >To use the library in your code, `#include` the proper header file
    
 4. Compile
  ```bash
