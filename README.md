@@ -104,12 +104,12 @@ Generates 'mylibft.a' by navigating into other folders and utilizing each Makefi
  ```
     
 - If you would like to use just one of the librarys, you can:
-    1. After cloning the repository go to the desired folder
+    i. After cloning the repository go to the desired folder
 ```bash
     cd mylibft/<foldername>
     make
 ```
-   2. To use the library in your code, `#include` the proper header file
+   ii. To use the library in your code, `#include` the proper header file
 4. Compile
  ```bash
     cc <yourfilename>.c mylibft.a
