@@ -32,7 +32,7 @@ OTHERFILES:
     - Makefile
 </details>
 
-<details open>
+<details close>
   <summary><h3>RANK1-FT_PRINTF</h3></summary>
 
 FOLDERNAME: printf
@@ -50,7 +50,7 @@ FILES:
    - Makefile
 </details>
 
-<details open>
+<details close>
   <summary><h3>RANK1-GET_NEXT_LINE</h3></summary>
   
 FOLDERNAME: gnl
@@ -69,14 +69,20 @@ FILES:
 
 </details>
 
-### - **MYLIBFT.H**
+<details close>
+  <summary><h3>MYLIBFT.H</h3></summary>
+  
 Only includes the header files from the other projects.
-    
-### - **MAKEFILE**
+</details>
+
+<details close>
+  <summary><h3>MAKEFILE</h3></summary>
+  
 Generates 'mylibft.a' by navigating into other folders and utilizing each Makefile to compile the corresponding '*.o' files.
 
+</details>
 
-<details open>
+<details close>
   <summary><h2>USAGE</h2></summary>
 
 1. Clone repository
