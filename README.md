@@ -30,6 +30,8 @@ FUNCTIONS:
 OTHERFILES:
     - libft.h     
     - Makefile
+
+:page_facing_up: [libft subject EN [PDF]](libft/en.libft.pdf)
 </details>
 
 <details open>
@@ -63,6 +65,8 @@ FILES:
    - get_next_line_bonus.h
    - Makefile
    >_This was added to the combine library, not as part of the 42 project_
+
+:page_facing_up: [get_next_line subject EN [PDF]](gnl/en.get_next_line.pdf)
 
 </details>
 
