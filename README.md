@@ -16,7 +16,7 @@ After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
 - [RANK1-GET_NEXT_LINE](#RANK1-GET_NEXT_LINE)
 - [MYLIBFT.H](#MYLIBFT.H)
 - [MAKEFILE](#MAKEFILE)
-- [USAGE](#USAGE)
+- [USAGE](javascript:toggleDetails('USAGE'))
 
 <details close>
   <summary><h3>RANK0-LIBFT</h3></summary>
