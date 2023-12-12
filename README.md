@@ -1,3 +1,10 @@
+<script>
+  function toggleDetails(id) {
+    var details = document.getElementById(id);
+    details.toggleAttribute("open");
+  }
+</script>
+
 # **MYLIBFT**
 
 After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able to combine this 3 projects in to my own library. 
@@ -82,7 +89,7 @@ Generates 'mylibft.a' by navigating into other folders and utilizing each Makefi
 
 </details>
 
-<details close>
+<details close id="USAGE">
   <summary><h3><a name="USAGE"></a>USAGE</h3></summary>
 
 1. Clone repository
