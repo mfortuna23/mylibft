@@ -104,7 +104,7 @@ Generates 'mylibft.a' by navigating into other folders and utilizing each Makefi
  ```
     
 - If you would like to use just one of the librarys, you can:
-    i. After cloning the repository go to the desired folder
+    - After cloning the repository go to the desired folder
 ```bash
     cd mylibft/<foldername>
     make
