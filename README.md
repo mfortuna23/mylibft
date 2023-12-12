@@ -47,7 +47,7 @@ FILES:
    - ft_printf.h
    - Makefile
 
-:page_facing_up: [ft_printf subject EN [PDF]](./en_ftprintf_2023.pdf)
+:page_facing_up: [ft_printf subject EN [PDF]](printf/en.ft_printf.pdf)
 </details>
 
 <details open>
@@ -59,7 +59,7 @@ FILES:
    - get_next_line_bonus.c
    >_read the file given until encounters '\n', saves the remaining of the file that was read, returns a complete line_
    - get_next_line_bonus_utils.c
-   >_2 funtcions from libft with diferet name len_str = ft_strlen, check_char = ft_strchar (almost the same, returns the position of the char given, if there is non it returns '-1') and error management_
+   >_2 functions from the libft library with different names len_str = ft_strlen, check_char = ft_strchar (almost the same, returns the position of the char given, if there is non it returns '-1') and error management_
    - get_next_line_bonus.h
    - Makefile
    >_This was added to the combine library, not as part of the 42 project_
