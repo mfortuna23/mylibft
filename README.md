@@ -110,6 +110,9 @@ Generates 'mylibft.a' by navigating into other folders and utilizing each Makefi
     make
 ```
    - To use the library in your code, `#include` the proper header file
-
+5. compile
+ ```bash
+    cc <yourfilename>.c mylibft.a
+ ```
 </details>
 
