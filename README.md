@@ -83,7 +83,7 @@ Generates 'mylibft.a' by navigating into other folders and utilizing each Makefi
 </details>
 
 <details close>
-  <summary><h2>USAGE</h2></summary>
+  <summary><h3><a name="USAGE"></a>USAGE</h3></summary>
 
 1. Clone repository
 
