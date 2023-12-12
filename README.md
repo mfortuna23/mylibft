@@ -13,6 +13,7 @@ After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
 
 <details open>
   <summary><h3>RANK0-LIBFT</h3></summary>
+  
 FOLDERNAME: libft
 
 FUNCTIONS:
@@ -30,7 +31,10 @@ OTHERFILES:
     - libft.h     
     - Makefile
 </details>
-### - **RANK1-FT_PRINTF**
+
+<details open>
+  <summary><h3>RANK1-FT_PRINTF</h3></summary>
+
 FOLDERNAME: printf
 
 FILES:
@@ -44,8 +48,11 @@ FILES:
    - ft_printstr.c
    - ft_printf.h
    - Makefile
+</details>
 
-### - **RANK1-GET_NEXT_LINE**
+<details open>
+  <summary><h3>RANK1-GET_NEXT_LINE</h3></summary>
+  
 FOLDERNAME: gnl
 
 FILES:
@@ -59,14 +66,19 @@ FILES:
    - Makefile
 
    _(This was added to the combine library, not as part of the 42 project)_
-        
+
+</details>
+
 ### - **MYLIBFT.H**
 Only includes the header files from the other projects.
     
 ### - **MAKEFILE**
 Generates 'mylibft.a' by navigating into other folders and utilizing each Makefile to compile the corresponding '*.o' files.
 
-## **_USAGE_**
+
+<details open>
+  <summary><h2>USAGE</h2></summary>
+
 1. Clone repository
 
  ```bash
@@ -90,7 +102,6 @@ Generates 'mylibft.a' by navigating into other folders and utilizing each Makefi
     cd mylibft/<foldername>
     make
 ```
-
-</br>
+</details>
    - To use the library in your code, `#include` the proper header file 
 
