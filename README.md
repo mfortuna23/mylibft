@@ -11,7 +11,7 @@ After completing rank0-Libft, rank1-ft_printf and rank1-get_next_line I was able
 - [MAKEFILE](#MAKEFILE)
 - [USAGE](#USAGE)
 
-<details close>
+<details open>
   <summary><h3>RANK0-LIBFT</h3></summary>
   
 FOLDERNAME: libft
@@ -32,52 +32,54 @@ OTHERFILES:
     - Makefile
 </details>
 
-<details close>
+<details open>
   <summary><h3>RANK1-FT_PRINTF</h3></summary>
 
 FOLDERNAME: printf
 
 FILES:
    - ft_printf.c
-   >_(prints the 1st argument without the flags, sorts where the flags should be managed)_
+   >_prints the 1st argument without the flags, sorts where the flags should be managed_
    - ft_nbr.c
-   >_("d, i, u, x, X, p" flags are managed here)_
+   >_"d, i, u, x, X, p" flags are managed here_
    - ft_printchar.c
    - ft_printstr.c
    - ft_printf.h
    - Makefile
+
+:page_facing_up: [ft_printf subject EN [PDF]](./en_ftprintf_2023.pdf)
 </details>
 
-<details close>
+<details open>
   <summary><h3>RANK1-GET_NEXT_LINE</h3></summary>
   
 FOLDERNAME: gnl
 
 FILES:
    - get_next_line_bonus.c
-   >_(read the file given until encounters '\n', saves the remaining of the file that was read, returns a complete line)_
+   >_read the file given until encounters '\n', saves the remaining of the file that was read, returns a complete line_
    - get_next_line_bonus_utils.c
-   >_(2 funtcions from libft with diferet name len_str = ft_strlen, check_char = ft_strchar (almost the same, returns the position of the char given, if there is non it returns '-1') and error management)_
+   >_2 funtcions from libft with diferet name len_str = ft_strlen, check_char = ft_strchar (almost the same, returns the position of the char given, if there is non it returns '-1') and error management_
    - get_next_line_bonus.h
    - Makefile
-   >_(This was added to the combine library, not as part of the 42 project)_
+   >_This was added to the combine library, not as part of the 42 project_
 
 </details>
 
-<details close>
+<details open>
   <summary><h3>MYLIBFT.H</h3></summary>
   
 Only includes the header files from the other projects.
 </details>
 
-<details close>
+<details open>
   <summary><h3>MAKEFILE</h3></summary>
   
 Generates 'mylibft.a' by navigating into other folders and utilizing each Makefile to compile the corresponding '*.o' files.
 
 </details>
 
-<details close>
+<details open>
   <summary><h3>USAGE</h3></summary>
 
 1. Clone repository
